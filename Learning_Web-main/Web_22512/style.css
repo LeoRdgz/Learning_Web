@@ -1,0 +1,49 @@
+/* El * afecta a todo el documento */
+*{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    color: blue;
+    border: 1px solid gray;
+}
+
+/* llamar por id */
+#texto{
+    color: red;
+}
+
+/* llamar clases */
+.texto-verde{
+    color: green;
+}
+.centro{
+    text-align: center;
+}
+
+/* En hexadecimal debe llevar el # */
+h1{
+    color: #C8A627;
+    border: 1px solid red;
+}
+
+body{
+    background-image: url(https://i1.sndcdn.com/artworks-1DxW4vHYkoTbvOGJ-XIjj0w-t500x500.jpg);
+    /* Para que la foto no se repita */
+    background-repeat: no-repeat;
+    background-color: antiquewhite;
+    margin: 50px;
+}
+
+.margin1{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 1px solid black;
+}
+
+.margin1 > p{
+    margin: 15px;
+}

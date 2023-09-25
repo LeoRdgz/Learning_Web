@@ -1,0 +1,44 @@
+body{
+    margin: 40px;
+}
+
+.container{
+    display: grid;
+    /* definen columnas */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    /* definen filas */
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+         /* fr se refiere a "fracciones" */
+
+    background-color: white;
+    color: black;
+}
+
+.header{
+    grid-column: 1/6; /*cantidad de columnas que abarcará (De la uno a la cinco)*/
+    border: 1px solid black;
+}
+
+.article{
+    grid-column: 1/5;
+    border: 1px solid black;
+}
+
+.aside{
+    grid-column: 5/6;
+    grid-row: 2/4; /*Estará en la fila 2 a la 5*/
+    border: 1px solid black;
+}
+
+.footer{
+    grid-column: 1/6;
+    border: 1px solid black;
+}
+
+.box{
+    background-color: #4444;
+    color: #FFFF;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+}
